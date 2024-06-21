@@ -4,6 +4,7 @@ apk upgrade
 
 # HV Tools ans sshd config
 wget https://raw.githubusercontent.com/qinnovate/alpinelinux/master/config.sh -O config.sh
+sh config.sh
 
 # Main graphical config
 setup-xorg-base
@@ -17,10 +18,6 @@ apk add i3wm i3status xterm
 adduser root
 addgroup root input
 addgroup root video
-adduser blockso
-addgroup blockso input
-addgroup blockso video
-#startx /usr/bin/i3
 
 # Install extra packages
 apk add ttf-dejavu dmenu perl feh picom xrandr
