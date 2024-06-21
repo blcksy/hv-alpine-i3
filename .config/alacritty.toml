@@ -1,0 +1,6 @@
+[keyboard]
+bindings = [
+    {key = "+", mods = "Control|Shift", action = "IncreaseFontSize"},
+    {key = "-", mods = "Control|Shift", action = "DecreaseFontSize"},
+    {key = "0", mods = "Control|Shift", action = "DecreaseFontSize"},
+]
