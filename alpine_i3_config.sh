@@ -50,4 +50,4 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 # Move files and change shell
 cp -R hv-alpine-i3/.config .
 cp hv-alpine-i3/.zshrc .
-chsch -s /bin/zsh
+chsh -s /bin/zsh
